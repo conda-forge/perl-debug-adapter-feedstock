@@ -1,12 +1,12 @@
-{% set version = "1.0.13" %}
+{% set version = "2.0.0" %}
 
 package:
   name: perl-debug-adapter
   version: {{ version }}
 
 source:
-  url: https://github.com/Nihilus118/perl-debug-adapter/archive/{{ version }}.tar.gz
-  sha256: 5a72f6245e67b5476c3ed0df4c319c34476ebc42fcc232581a942428da9b31fa
+  url: https://github.com/Nihilus118/perl-debug-adapter/archive/v{{ version }}.tar.gz
+  sha256: 5498d21ce9dbc8b83975b042491191d0193732a1e47d351aa86ca989a0b85511
 
 build:
   noarch: generic
